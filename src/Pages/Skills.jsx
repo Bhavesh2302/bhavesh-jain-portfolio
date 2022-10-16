@@ -415,13 +415,13 @@ const Skills = () => {
       
       <Box w="80%" m="auto">
 
-        <Flex>
-        <Box w="65%" m="auto"> <Image m="auto" w="100%" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bhavesh2302&layout=compact&hide=Shell&border_radius=0" alt="Bhavesh2302" width="400" /></Box>
-        <Box w="65%" m="auto"> <Image m="auto" w="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Bhavesh2302&hide_border=false"/> </Box>
+        <Flex justifyContent={"space-around"} mb="15px" direction={{base:"column",sm:"row"}} gap={{base:"20px"}}>
+        <Box w="65%" maxH={"140px"} m="auto"> <Image m="auto" w="100%" h={"100%"} align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bhavesh2302&layout=compact&hide=Shell&border_radius=0" alt="Bhavesh2302" /></Box>
+        <Box w="65%" maxH={"140px"} m="auto"> <Image m="auto" w="100%" h="100%"src="https://github-readme-streak-stats.herokuapp.com/?user=Bhavesh2302&hide_border=false"/> </Box>
         </Flex>
 
         
-        <Box w="65%" m="auto"><Image m="auto"w="100%" align="center" src="https://github-readme-stats.vercel.app/api?username=Bhavesh2302&show_icons=true&include_all_commits=true&count_private=true&hide=issues,contribs&border_radius=0&locale=en" alt="Bhavesh2302" height="200" /></Box>
+        <Box w="65%" m="auto"><Image m="auto"mt={{lg:"100px"}} w="100%" height={{base:"100px",sm:"140px"}} align="center" src="https://github-readme-stats.vercel.app/api?username=Bhavesh2302&show_icons=true&include_all_commits=true&count_private=true&hide=issues,contribs&border_radius=0&locale=en" alt="Bhavesh2302"  /></Box>
       
             
 
@@ -430,7 +430,7 @@ const Skills = () => {
 
   
 
-    <Box width="80%" m="auto" mt="20px">  <GitHubCalendar username="bhavesh2302" style={{width:"100%",margin:"auto"}}    /></Box>
+    <Box width="80%" m="auto" mt={{base:"0px",sm:"0px",md:"20px"}}>  <GitHubCalendar username="bhavesh2302" style={{width:"100%",margin:"auto"}}    /></Box>
    
     </Box>
     
