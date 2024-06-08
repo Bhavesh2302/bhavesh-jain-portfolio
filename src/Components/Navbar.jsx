@@ -53,6 +53,7 @@ const Navbar = ({ projectsRef, infoRef, skillRef, contactRef, homeRef }) => {
         justifyContent={"space-between"}
         fontWeight="700"
         letterSpacing="1px"
+        zIndex = {1000000}
       >
         <Box
           width={{ base: "70%", sm: "40%", md: "30%" }}

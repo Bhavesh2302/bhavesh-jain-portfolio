@@ -13,17 +13,12 @@ const About = () => {
       <Box w={{base:"80%",sm:"80%",md:"75%"}} mb="10px"  m="auto">
         <Text fontWeight={"bold"} fontSize="20px" textAlign="left">
           {" "}
-          I'm Bhavesh Jain
+         Hii I'm Bhavesh Jain
         </Text>
       </Box>
       <Box w={{base:"80%",sm:"80%",md:"75%"}} mb="10px"  m="auto">
         <Text textAlign={"left"}>
-          A MERN developer having 1000+hrs of hands on experience in web
-          development and always energetic and eager to learn new things, also
-          collaborative, flexible and adaptable who loves to develop the
-          websites using mern stack. Ambitious and hardworking individual with
-          competency in web development and looking forward to work in the
-          software industry.
+        A dynamic Full Stack Web Developer with a strong foundation in full-stack web development and over a year of hands-on experience in the product-based industry ( Cointab Software Pvt. Ltd. ), specialized in cutting-edge technologies like NodeJS, ExpressJS, MongoDB, SQL, ReactJS, Redux and AngularJS and Third Party API Integrations. Beyond coding, I’m a cricket, badminton and volleyball enthusiast and a relentless explorer of new technologies.
         </Text>
         <Box></Box>
       </Box>
