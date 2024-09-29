@@ -29,7 +29,7 @@ const activeStyle = {
   textDecoration: "none",
 };
 
-const Navbar = ({ projectsRef, infoRef, skillRef, contactRef, homeRef }) => {
+const Navbar = ({ projectsRef, infoRef, skillRef, contactRef, homeRef, workRef }) => {
   const { colorMode, toggleColorMode } = useColorMode();
   // const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -114,6 +114,19 @@ const Navbar = ({ projectsRef, infoRef, skillRef, contactRef, homeRef }) => {
               to={"/about"}
             >
               About Me
+            </NavLink>
+          </Box>
+          <Box>
+            {" "}
+            <NavLink
+              // className={styles.links}
+              onClick={() => {
+                handleScroll(workRef.current);
+              }}
+              style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
+              to={"/work"}
+            >
+              Work
             </NavLink>
           </Box>
           <Box>

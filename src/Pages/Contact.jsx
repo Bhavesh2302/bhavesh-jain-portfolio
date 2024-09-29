@@ -58,7 +58,7 @@ const Contact = () => {
             <Box display={"flex"} gap="40px" alignItems={"center"} mb="25px">
               <FaEnvelope color={"#06d6a0"} size={"40px"} pl="30px" />
               <Box fontWeight={"500"}>
-                <a href="mailto:bhaveshjain2501@gmail.com">
+                <a href="mailto:bhaveshjain2501@gmail.com" target="_blank" download rel="noreferrer">
                   bhaveshjain2501@gmail.com
                 </a>
               </Box>
@@ -67,7 +67,7 @@ const Contact = () => {
             <Box display={"flex"} gap="40px" alignItems={"center"} mb="25px">
               <FaLinkedin color={"#06d6a0"} size={"40px"} />
               <Box fontWeight={"500"}>
-                <a href="https://www.linkedin.com/in/bhavesh-jain-b86120173/">
+                <a href="https://www.linkedin.com/in/-bhavesh-jain" target="_blank" download rel="noreferrer">
                   Linked In
                 </a>
               </Box>
@@ -76,7 +76,7 @@ const Contact = () => {
             <Box display={"flex"} gap="40px" alignItems={"center"} mb="25px">
               <FaGithub color={"#06d6a0"} size={"40px"} />
               <Box fontWeight={"500"}>
-                <a href="https://github.com/Bhavesh2302">Github</a>
+                <a href="https://github.com/Bhavesh2302" target="_blank" download rel="noreferrer">Github</a>
               </Box>
             </Box>
 
