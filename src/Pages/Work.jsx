@@ -16,10 +16,11 @@ import {
         m={"auto"}
         h="100%"
         mt="200px"
+        mb="140px"
       >
         <Text
           fontWeight={"660"}
-          fontSize={"25px"}
+          fontSize={"23px"}
           mb={"10px"}
           pt={"30px"}
         >
@@ -32,7 +33,7 @@ import {
         >
           <Box>
             <Text
-              fontSize={{ base: "18px", sm: "18px", md: "21px", lg: "25px" }}
+              fontSize={{ base: "18px", sm: "18px", md: "21px", lg: "23px" }}
               fontWeight={"700"}
             >
               Cointab Software Pvt. Ltd., Mumbai (Maharashtra)

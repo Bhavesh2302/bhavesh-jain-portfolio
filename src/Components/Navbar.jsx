@@ -199,6 +199,17 @@ const Navbar = ({ projectsRef, infoRef, skillRef, contactRef, homeRef, workRef }
                   About Me
                 </Link>
               </MenuItem>
+              <Link
+                // className={styles.links}
+                onClick={() => {
+                  handleScroll(workRef.current);
+                }}
+                // style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
+                to={"/work"}
+              >
+                {" "}
+                <MenuItem>Work</MenuItem>
+              </Link>
 
               <Link
                 // className={styles.links}
