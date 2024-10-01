@@ -67,7 +67,10 @@ const Home = () => {
           </Box>
 
           <Button bg={"#06d6a0"} size={{base:"sm",sm:"sm",md:"md"}} mt={"20px"}>
-            <a href="/Bhavesh-Jain-Resume.pdf" target="_blank" download rel="noreferrer">
+            {/* <a href="/Bhavesh-Jain-Resume.pdf" target="_blank" download rel="noreferrer">
+              Resume
+            </a> */}
+            <a href="https://drive.google.com/file/d/1_24u28o4_A5gnBJ1lbzkhZIcCvoLJiuM/view?usp=sharing" target="_blank" rel="noreferrer">
               Resume
             </a>
           </Button>
