@@ -5,6 +5,10 @@ import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Home = () => {
+  const handleDownload = () => {
+    window.open("https://drive.google.com/file/d/1_24u28o4_A5gnBJ1lbzkhZIcCvoLJiuM/view?usp=sharing", '_blank');
+  };
+
   return (
     <Box  width="100%" mt="200px" mb="100px">
       <Flex w="80%" m="auto" alignItems={"center"} gap="20px" direction={{base:"column-reverse",sm:"column-reverse",md:"row"}}>
@@ -70,9 +74,14 @@ const Home = () => {
             {/* <a href="/Bhavesh-Jain-Resume.pdf" target="_blank" download rel="noreferrer">
               Resume
             </a> */}
-            <a href="https://drive.google.com/file/d/1_24u28o4_A5gnBJ1lbzkhZIcCvoLJiuM/view?usp=sharing" target="_blank" rel="noreferrer">
+            <a rel="noreferrer" href="/Bhavesh-Jain-Resume.pdf"
+          onClick={handleDownload} 
+          download={'Bhavesh-Jain-Resume'}>
+            Resume
+          </a>
+            {/* <a href="https://drive.google.com/file/d/1_24u28o4_A5gnBJ1lbzkhZIcCvoLJiuM/view?usp=sharing" target="_blank" rel="noreferrer">
               Resume
-            </a>
+            </a> */}
           </Button>
         </Box>
 
