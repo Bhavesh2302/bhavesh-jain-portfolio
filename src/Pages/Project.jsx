@@ -10,6 +10,32 @@ const Project = () => {
       <Box ><Text fontSize="23px" fontWeight="bold" mb="30px">Projects</Text></Box>
 
 <SimpleGrid columns={[1,2,2,3,3]} w={{base:"85%"}} m="auto" gap="20px">
+<Box boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px"  border="1px solid #06d6a0" borderRadius="15px">
+  <Image borderTopRightRadius={"15px"} borderTopLeftRadius={"15px"} h="200px" w="100%" src="https://i.imgur.com/C6xSROD.png" alt="project-image" />
+  <Box mt="10px" mb="10px" ><Text fontWeight="bold">Bag It Up</Text></Box>
+  <Box padding={"10px"} textAlign="center"> Bag It Up is a solo e-commerce project offering stylish, durable, and elegant bags.
+</Box>
+  <Box >
+ 
+  <Flex  justifyContent="space-around" alignItems="center" mt="15px" mb="15px">
+    <Box><Image  w={{base:"30px"}} src="https://www.svgrepo.com/show/303360/nodejs-logo.svg" alt="html" /></Box>
+      <Box><Image  w={{base:"30px"}} src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png" alt="css" /></Box>
+      <Box><Image  w={{base:"30px"}} src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JS" /></Box>
+      <Box><Image  w={{base:"30px"}} src="https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg" alt="JS" /></Box>
+      <Box>
+          <Image  w={{base:"30px"}} alt="React"src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" />
+        </Box>
+    </Flex>
+  </Box>
+
+<Box display="flex"justifyContent="space-around" alignItems="center" mt="5px" mb="5px" >
+  <Flex gap="150px" alignItems="center">
+    <Box ><a href='https://github.com/Bhavesh2302/bag-it-up' target="_blank" rel="noreferrer" ><Button  variant="unstyled">Github Link</Button></a></Box>
+    <Box ><a href='https://bag-it-up.netlify.app/' target="_blank" rel="noreferrer" ><Button  variant="unstyled">Go live</Button></a></Box>
+  </Flex>
+  </Box>
+
+</Box>
 
 <Box boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px"  border="1px solid #06d6a0" borderRadius="15px">
   <Image borderTopRightRadius={"15px"} borderTopLeftRadius={"15px"} h="200px" w="100%" src="https://i.imgur.com/PohH8u1.png" alt="project-image" />
