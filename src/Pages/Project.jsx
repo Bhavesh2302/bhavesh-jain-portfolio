@@ -96,11 +96,9 @@ const Project = () => {
 <Box boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px" border="1px solid #06d6a0" borderRadius="15px">
   <Image borderTopRightRadius={"15px"} borderTopLeftRadius={"15px"} h="200px" w="100%" src="https://github.com/Bhavesh2302/Snapdeal/raw/bhavesh/Imageicons/homepage.png" alt="" />
   <Box mt="10px" mb="10px" ><Text fontWeight="bold">Snapdeal</Text></Box>
-  <Box padding={"10px"} textAlign="center">Cloned Snapdeal is E-commerce website 
-  having multiple varities of products.</Box>
-  <Box>
- 
-    <Flex  justifyContent="space-around" alignItems="center" mt="15px" mb="15px">
+  <Box padding={"10px"} textAlign="center">Cloned Snapdeal is an e-commerce website offering a wide range of products, provide a seamless shopping experience with user-friendly navigation and diverse categories.
+  </Box >
+  <Flex  justifyContent="space-around" alignItems="center" mt="15px" mb="15px">
     <Box><Image   w={{base:"30px"}} src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html" /></Box>
       <Box><Image   w={{base:"30px"}}src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css" /></Box>
       <Box><Image   w={{base:"30px"}}src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JS" /></Box>
@@ -108,7 +106,6 @@ const Project = () => {
     <FaGithub fontSize={"30px"}/>
     </Box>
     </Flex>
-  </Box >
   <Flex  justifyContent="space-around" alignItems="center" mt="15px" mb="15px">
     <Box ><a href="https://github.com/Bhavesh2302/Snapdeal" target="_blank" rel="noreferrer" ><Button  variant="unstyled">Github Link</Button></a></Box>
     <Box ><a href='https://snapdeal-dealhub.netlify.app/' target="_blank" rel="noreferrer" ><Button  variant="unstyled">Go live</Button></a></Box>
