@@ -7,7 +7,7 @@ import { FaGithub } from 'react-icons/fa'
 const Project = () => {
   return (
     <Box  width={"100%"}>
-      <Box ><Text fontSize="23px" fontWeight="bold" mb="30px">Projects</Text></Box>
+      <Box><Text fontSize="23px" fontWeight="bold" mb="30px">Projects</Text></Box>
 
 <SimpleGrid columns={[1,2,2,3,3]} w={{base:"85%"}} m="auto" gap="20px">
 <Box boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px"  border="1px solid #06d6a0" borderRadius="15px">

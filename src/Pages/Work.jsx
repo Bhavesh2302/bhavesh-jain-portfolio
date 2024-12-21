@@ -31,7 +31,7 @@ import {
           m={"auto"}
           textAlign="center"
         >
-          <Box>
+          {/* <Box>
           <Text
             fontSize={{ base: "18px", sm: "18px", md: "21px", lg: "23px" }}
             fontWeight={"700"}
@@ -289,7 +289,7 @@ import {
             </UnorderedList>
           </Box>
         </Box>
-        <hr style={{ marginTop: "20px" }} />
+        <hr style={{ marginTop: "20px" }} /> */}
           <Box>
             <Text
               fontSize={{ base: "18px", sm: "18px", md: "21px", lg: "23px" }}

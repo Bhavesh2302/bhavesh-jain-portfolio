@@ -7,9 +7,9 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 const Home = () => {
   const handleDownload = () => {
     // masai resume
-    // window.open("https://drive.google.com/file/d/1_24u28o4_A5gnBJ1lbzkhZIcCvoLJiuM/view?usp=sharing", '_blank');
+    window.open("https://drive.google.com/file/d/1m6Hfw6vvU-OHO2KYDLJMTui9KgnZv6ta/view?usp=sharing", '_blank');
     // red hat resume
-    window.open("https://drive.google.com/file/d/1DSZQLbhhvf6G8hPuhm_fwFuJS0EpQCRC/view?usp=sharing", '_blank');
+    // window.open("https://drive.google.com/file/d/1DSZQLbhhvf6G8hPuhm_fwFuJS0EpQCRC/view?usp=sharing", '_blank');
   };
 
   return (
@@ -77,10 +77,10 @@ const Home = () => {
             {/* <a href="/Bhavesh-Jain-Resume.pdf" target="_blank" download rel="noreferrer">
               Resume
             </a> */}
-            {/* <a rel="noreferrer" href="/Bhavesh-Jain-Resume.pdf" */}
-            <a rel="noreferrer" href="/RedHat/Bhavesh_Jain_Resume.pdf"
+            {/* <a rel="noreferrer" href="/RedHat/Bhavesh_Jain_Resume.pdf" */}
+            <a rel="noreferrer" href="/Bhavesh_Jain_Resume.pdf"
           onClick={handleDownload} 
-          download={'Bhavesh-Jain-Resume'}>
+          download={'Bhavesh_Jain_Resume'}>
             Resume
           </a>
             {/* <a href="https://drive.google.com/file/d/1_24u28o4_A5gnBJ1lbzkhZIcCvoLJiuM/view?usp=sharing" target="_blank" rel="noreferrer">
